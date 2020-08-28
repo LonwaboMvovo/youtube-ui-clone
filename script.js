@@ -1,4 +1,4 @@
-if (window.location.pathname === "/index.html") {
+if (window.location.pathname === "/index.html" || window.location.pathname === "/") {
     // Click to trending page:
     const trending = document.getElementById("trending");
     trending.addEventListener("click", () => {
