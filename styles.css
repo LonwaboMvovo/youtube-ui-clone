@@ -355,4 +355,29 @@ body {
 #up-next {
     width: 33%;
 }
+
+#up-next p {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+#up-next p span {
+    display: flex;
+    align-items: center;
+}
+
+#up-next p span i {
+    font-size: 2.8rem;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.dont-show {
+    display: none;
+}
+
+#toggle_on {
+    color: var(--trending-blue);
+}
 /* Video page */
