@@ -258,11 +258,11 @@ body {
     margin-right: 10px;
     margin-bottom: 30px;
     display: flex;
+    cursor: pointer;
 }
 
 .trending-thumbnail {
     display: inline-block;
-    /* width: calc(25% - 10px); */
     width: 260px;
     height: 140px;
 }
@@ -282,7 +282,6 @@ body {
 
 .trending-video-text h2 {
     margin: 0px;
-    /* margin-bottom: 2px; */
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -296,8 +295,4 @@ body {
 .trending-video-text p {
     margin-bottom: 5px;
 }
-
-/* .trending-video-text br {
-    line-height: 5px;
-} */
 /* Trending Videos */
